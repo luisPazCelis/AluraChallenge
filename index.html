@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title> 
+    <link rel="stylesheet" href= "reset.css">
+    <link rel="stylesheet" href= "estilo.css">
+    
+</head>
+<body>
+ <header>
+    <div class="header">
+        <img class= "header-logo" src="imagen/Logo.png.png">
+    </div>
+ </header>
+
+ <main>
+    <div class= "main">
+        <div class="letf"> 
+            <textarea id="ingresoTexto" class="ingreso-texto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="letf-footer"> 
+                <img src="imagen/bi_exclamation-circle-fill.png">
+                <span class="letf-info">Solo letras minusculas y sin acentos </span>
+                <div class="letf-button">
+                    <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                    <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                </div>
+               
+            </div>
+        </div>
+          <div id =" right" class="right  ajustar">
+            <img  id="munheco" class="munheco" src="imagen/Muñeco.png">
+            <textarea id="mensajeFinal" class="mensaje-final  ajustar" placeholder="Ningun mensaje fue encontrado"></textarea>
+            <p  id="rightInfo" class="right-info">Ingresar el texto que deseas encriptar o desencriptar</p>
+            <button id="botonCopiar" class="boton-copiar  oculto">Copiar</button>
+         </div>
+    </div>
+ </main>
+ 
+ <script src="script.js"></script>
+</body>
+</html>
